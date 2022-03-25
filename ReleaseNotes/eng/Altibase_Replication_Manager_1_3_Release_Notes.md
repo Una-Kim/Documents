@@ -1,0 +1,108 @@
+- [Altibase Replication Manager 1.3 Release Notes](#altibase-replication-manager-13-release-notes)
+  - [1. Abstract](#1-abstract)
+    - [1.1 System Requirements](#11-system-requirements)
+    - [1.2 Supported Operating Systems and Platforms](#12-supported-operating-systems-and-platforms)
+  - [2. Release Information](#2-release-information)
+    - [2.1 Altibase Replication Manager](#21-altibase-replication-manager)
+    - [2.2 Changes](#22-changes)
+    - [2.3 Open Source Libraries](#23-open-source-libraries)
+    - [2.4 Packages](#24-packages)
+    - [2.5 Downloads](#25-downloads)
+
+
+
+Altibase Replication Manager 1.3 Release Notes
+===============================
+
+**(March 31, 2022)**
+
+## 1. Abstract ##
+
+### 1.1 System Requirements
+
+#### Minimum Hardware
+
+* Computer processor: 800MHz Pentium III or better
+* Computer memory: 512 MB or more
+* Computer disk : 50MB or free space(Except JRE)
+* Screen resolution : 1024 * 768 pixels or higher
+
+### 1.2 Supported Operating Systems and Platforms
+
+| OS                 | CPU  | Graphic Library | Bit   | JRE              |
+| ------------------ | ---- | --------------- | ----- | ---------------- |
+| Windows XP Vista 7 | x86  | Win32           | 32bit | Java 6 or higher |
+| LINUX              | x86  | GTK             | 32bit | Java 6 or higher |
+
+## 2. Release Information
+
+### 2.1 Altibase Replication Manager
+
+Replication Manager is a graphical tool for managing replication on Altibase more easily and quickly. 
+
+#### 2.1.1 New Features
+
+|  PK  | SYNOPSIS |
+| :--: | :------: |
+
+#### 2.1.2  Bug-Fixes
+
+| PK        | SYNOPSIS                                                     |
+| --------- | ------------------------------------------------------------ |
+| BUG-49500 | Logging system is changed from log4j to JUL (java.util.logging) due to CVE-2021-44832 security issue. |
+
+### 2.2 Changes
+
+Listed below are added/updated/deleted functions explanations for Replication Manager.
+
+#### 2.2.1 Version Updates
+
+- Replication Manager Version: 1.3
+
+#### 2.2.2 Compatibility
+
+- Altibase Version: Altibase 4.3.9 or higher
+
+#### 2.2.3 Properties
+
+#### 2.2.4 Error Messages
+
+### 2.3 Open Source Libraries
+
+Replication Manager is based on the following Open Source Libraries and Royalty-Free Images. The
+licenses are distributed in a text file format along with Replication Manager.
+
+| Library            | Open Source License                                          |
+| ------------------ | ------------------------------------------------------------ |
+| blancoSqlFormatter | Homepage: http://www.igapyon.jp/blanco/blancosqlformatter.html </br>License: LGPL (http://www.gnu.org/licenses/lgpl-3.0.txt) |
+| Eclipse            | Homepage: http://www.eclipse.org <br/>License: Eclipse Public License (http://www.eclipse.org/legal/epl-v10.html) |
+| JDOM               | Homepage: http://www.jfree.org/jfreechart/) <br/>License: LGPL (http://www.gnu.org/licenses/lgpl-3.0.txt) |
+| JFreeChart         | Homepage: http://www.jfree.org/jfreechart/) <br/>License: LGPL (http://www.gnu.org/licenses/lgpl-3.0.txt) |
+| SLF4J              | Homepage: https://www.slf4j.org/<br/>License: MIT (https://www.slf4j.org/license.html) |
+
+| Library                   | Royalty-Free Images                        |
+| ------------------------- | ------------------------------------------ |
+| asp.net_commercial_free2  | Homepage: www.asp.net                      |
+| www.famfamfam.com         | Homepage: www.famfamfam.com                |
+| fatcow-hosting-icons-2400 | Homepage: http://www.fatcow.com/free-icons |
+
+### 2.4 Packages
+
+| OS          | CPU | Archive Name                           |
+| ----------- | --- | -------------------------------------- |
+| Linux/glibc | x86 | ReplicationManager-linux.gtk.x86.zip   |
+| Windows     | x86 | ReplicationManager-win32.win32.x86.zip |
+
+### 2.5 Downloads
+
+#### 2.5.1 Packages
+
+<http://support.altibase.com/en/>
+
+#### 2.5.2 Manual
+
+[Replication Manager User's Manual.md](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/eng/Replication%20Manager%20User's%20Manual.md)
+
+#### 2.5.3 Installation
+
+Please refer to the Replication Manager User's Manual.
